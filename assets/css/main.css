@@ -80,7 +80,7 @@ a:after {
 	margin-top: 30px;
 	color: white;
 	font-size: 70px;
-	
+
 }
 
 #headerwrap h3 {
@@ -158,3 +158,13 @@ a:after {
 	color: white
 }
 
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+}
+
+.footy {
+  padding: 2.5em;
+}
