@@ -172,3 +172,8 @@ a:after {
 .footy2 {
   padding: 0.5em;
 }
+
+.foottext {
+  text-align: center;
+  font-size: 14px;
+}
