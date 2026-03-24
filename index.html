@@ -3,330 +3,261 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Jose A. Campos - Software Developer">
+  <meta name="description" content="Jose Campos — Software Engineer, Data Builder, AI Automation Operator. Rails, SQL/ETL, testing, and agent-based systems.">
   <meta name="author" content="Jose A. Campos">
-  <link rel="shortcut icon" href="assets/ico/favicon.png">
-
-  <title>Jose A. Campos - Software Developer</title>
-
-  <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <!-- Custom styles for this template -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/smoothscroll.js"></script>
-
   <link rel="shortcut icon" href="jose.ico">
+  <title>Jose Campos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
-<body data-spy="scroll" data-offset="0" data-target="#navigation">
-  <div id="navigation" class="navbar navbar-default navbar-fixed-top">
+<body>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <a href="#top" class="nav-name">J.A.C.</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">&#9776;</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#notes">Notes</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="top" class="hero">
     <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">
-          <b>J.A.C.</b>
-        </a>
-      </div>
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#home" class="smothscroll">Home</a></li>
-          <li><a href="#desc" class="smothscroll">Blog</a></li>
-          <li><a href="#showcase" class="smothScroll">Projects</a></li>
-          <li><a href="./resume.html">Resume</a></li>
-          <li><a href="#contact" class="smothScroll">Contact</a></li>
-        </ul>
+      <h1 class="hero-name">Jose A. Campos 🧑🏽‍💻</h1>
+      <p class="hero-title">Software Engineer &middot; Data Builder &middot; AI Automation Operator</p>
+      <p class="hero-bio">
+        Rails developer with a background in SQL/ETL, testing, and financial data systems.
+        Currently building AI operator workflows and agent-based tooling.
+        Tampa, FL.
+      </p>
+      <div class="hero-links">
+        <a href="docs/JoseCampos-RoR-resume.pdf" target="_blank" class="btn btn-primary">Resume &darr;</a>
+        <a href="https://www.linkedin.com/in/jose-a-campos/" target="_blank" class="btn btn-secondary">LinkedIn</a>
+        <a href="https://github.com/camposja" target="_blank" class="btn btn-secondary">GitHub</a>
+        <a href="mailto:JJoseCCampos@Gmail.com" class="btn btn-secondary">Email</a>
       </div>
     </div>
-  </div>
+  </section>
 
-	<section id="home" name="home"></section>
-	<div id="headerwrap">
-	    <div class="container">
-	    	<div class="row centered">
-	    		<div class="col-lg-12">
-  					<h1>Jose A. <b>Campos</b></h1>
-  					<h3>Web Developer / Software Engineer</h3>
-  					<br>
-	    		</div>
-	    		<div class="col-lg-2">
-	    			<h5>Ruby on Rails</h5><p> enabled Web Development.
-            Final Project created at the Iron Yard Developer's bootcamp.</p>
-	    			<img class="hidden-xs hidden-sm hidden-md" src="assets/img/arrow1.png">
-	    		</div>
-	    		<div class="col-lg-8">
-	    			<img class="img-responsive" src="assets/img/re-intro5.gif" alt="">
-	    		</div>
-	    		<div class="col-lg-2">
-	    			<br>
-	    			<img class="hidden-xs hidden-sm hidden-md" src="assets/img/arrow2.png">
-	    			<h5>Web Developement</h5>
-	    			<p>crafted with care & the latest technologies.</p>
-	    		</div>
-	    	</div>
-	    </div>
-	</div>
-
-	<section id="desc" name="desc"></section>
-	<div id="intro">
-		<div class="container">
-			<div class="row centered">
-				<h1>Blog</h1>
-				<br><br>
-
-				<div class="col-lg-6">
-					<a href="https://medium.com/@jjoseccampos/ruby-enumerables-the-each-do-the-map-enumerables-48909b4fd9be" target="_blank"><img src="assets/img/intro03.png" alt="">
-  					<h3>
-              Ruby Enumerables: The Each Do & the Map Enumerables
-            </h3>
-  					<p>
-              I am currently a student at a 12 week coding bootcamp. Recently, building our way towards learning about Ruby on Rails we have learned about a relatively simple yet powerful set of tool called Enumerables... (2Q 2017)
-            </p>
-          </a>
-				</div>
-				<div class="col-lg-6">
-					<a href="https://medium.com/@jjoseccampos/a-weekend-visit-to-my-favorite-food-truck-92c63daa7574" target="_blank"><img src="assets/img/intro01.png" alt="">
-  					<h3>
-              A weekend visit to my favorite food truck: a Ruby on Rails Chronicle
-            </h3>
-  					<p>
-              Making a program on Ruby can be a time consuming proposition. You have to do all the ground work to achieve your goal... Conversely, it can be said that when you program on RoR most of the prep work can be done by the experts if you utilize convetion. Much work can be done in the form of scaffold... (2Q 2017)
-            </p>
-          </a>
-				</div>
-			</div>
-			<br>
-			<hr>
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-heading">About</h2>
+      <div class="about-text">
+        <p>
+          I've been building software professionally since 2017, starting with Ruby on Rails
+          and growing into data engineering, cloud infrastructure, and AI-adjacent systems.
+          Before that, I spent nearly a decade in financial services at Citibank and JPMorgan —
+          which turns out to be decent preparation for caring about data integrity and getting
+          things exactly right.
+        </p>
+        <p>
+          My background spans internal tooling at Amazon's logistics and fulfillment network,
+          insurance software at Kin, e-commerce platforms, LMS systems, and now agent-based
+          AI tooling. I work best at the intersection of engineering and systems thinking —
+          where the goal is something that actually works, not just something that ships.
+        </p>
+        <p>
+          Eckerd College, Economics. The Iron Yard, Rails. Father, pickleball player, environmental advocate.
+        </p>
+      </div>
     </div>
-	</div>
+  </section>
 
-	<!-- FEATURES WRAP -->
-	<div id="features">
-		<div class="container">
-			<div class="row">
-				<h1 class="centered">About Me</h1>
-				<br>
-				<br>
-				<div class="col-lg-6 centered">
-					<img class="centered" src="assets/img/josemobile2.png" alt="">
-				</div>
-				<div class="col-lg-6">
-					<h3>
-            Father, family man, running & environmental enthusiast who enjoys working with technology
-          </h3>
-					<br>
-				<!-- ACCORDION -->
-        <div class="accordion ac" id="accordion2">
-          <div class="accordion-group">
-            <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                Who am I?
-                </a>
-            </div><!-- /accordion-heading -->
-            <div id="collapseOne" class="accordion-body collapse in">
-               <div class="accordion-inner">
-    <p> Hello, my name is Jose. I am passionate about protecting the environment and enjoy spending time outdoors. My son motivates me to improve my life and to set a good example.</p>
-    <p>I believe technology is both very exciting and useful. I believe in technology’s ability to improve people’s lives.</p>
-		          </div><!-- /accordion-inner -->
-             </div><!-- /collapse -->
-          </div><!-- /accordion-group -->
-          <br>
-          <div class="accordion-group">
-            <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                Background & Strengths
-                </a>
-            </div>
-            <div id="collapseTwo" class="accordion-body collapse in">
-              <div class="accordion-inner">
-    <p>I enjoy learning about languages and cultures because of the opportunities it gives you to make connections with people as well as for its potential for personal growth.</p>
-    <p>In mid 2017 I completed a 12 week bootcamp style program in Backend Engineering at The Iron Yard in St. Petersburg, FL. A few months later I landed a role as Jr. Ruby on Rails dev for a small shop specializing in work for the aerospace industry.</p>
-		          </div>
-            </div>
-          </div>
-          <br>
-          <div class="accordion-group">
-            <div class="accordion-heading">
-              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-              Goals
-              </a>
-            </div>
-            <div id="collapseThree" class="accordion-body collapse in">
-              <div class="accordion-inner">
-    <p> My goal now is to continue to grow as a Developer. Currently I've worked as a Fullstack dev on projects aggregating data form multiple sources as well as creating and managing a Learning Management System LMS. In my last role I learned much about AWS technologies for databases like RDS, Redshift & Dynamo DB. I also learned about AWS infrastructure technologies like continous deployment pipeline.</p>
-    <p>Next on the list is Native AWS deployment and hosting. I am curious and interested in learning other programming languages like Python, Elixir & Java. I'm also interested in learning new frameworks. Next on my list are frameworks & technologies like Node.js, Angular.js, Vue.js, Ionic, Electron and Java.</p>
-		          </div>
-            </div>
-          </div>
-          <br>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+  <!-- WHAT I DO -->
+  <section id="work">
+    <div class="container">
+      <h2 class="section-heading">What I Do</h2>
+      <div class="capability-grid">
 
-<section id="showcase" name="showcase"></section>
-<div id="showcase">
-	<div class="container">
-		<div class="row">
-			<h1 class="centered">Projects</h1>
-			<br>
-			<div class="col-lg-8 col-lg-offset-2">
-				<div id="carousel-example-generic" class="carousel slide">
-				  <!-- Indicators -->
-				  <ol class="carousel-indicators">
-				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-				  </ol>
+        <div class="capability-card">
+          <span class="capability-label">Software Engineering</span>
+          <p>Ruby on Rails, RESTful APIs, ActiveRecord, PostgreSQL. Writing code that's maintainable a year later — not just working today.</p>
+        </div>
 
-				  <!-- Wrapper for slides -->
-				  <div class="carousel-inner">
-				    <div class="item active">
-              <a href="https://github.com/camposja/energy" target="_blank">
-				        <img src="assets/img/2renew.png" alt="">
-              </a>
-                <br>
-                <div class="codebtn">
-                  <a href="https://github.com/camposja/energy" target="_blank">
-                    <button type="submit" class="btn btn-large btn-default">
-                      <i class="fa fa-github fa-lg"></i>
-                      Code in Github
-                    </button>
-                  </a>
-                  <a href="https://camposja-renewable-energy.herokuapp.com/" target="_blank">
-                    <button type="submit" class="btn btn-large btn-default">
-                      <i class="fa fa-window-maximize fa-lg"></i>
-                      Project Website
-                    </button>
-                  </a>
-                </div>
-				    </div>
-				    <div class="item">
-				      <a href="https://github.com/camposja/bidtastic-dotrb" target="_blank">
-                <img src="assets/img/bidtastic4.png" alt="">
-              </a>
-              <br>
-              <div class="codebtn">
-                <a href="https://github.com/camposja/bidtastic-dotrb" target="_blank">
-                   <button type="submit" class="btn btn-large btn-default"><i class="fa fa-github fa-lg"></i> Code in Github</button>
-                </a>
-                <a href="https://dotrb-dibtastic.herokuapp.com/" target="_blank">
-                  <button type="submit" class="btn btn-large btn-default">
-                    <i class="fa fa-window-maximize fa-lg"></i>
-                    Project Website
-                  </button>
-                </a>
-              </div>
-				    </div>
-            <div class="item">
-              <a href="https://camposja-tiny-estates.herokuapp.com/" target="_blank">
-                <img src="assets/img/2tinye.png" alt="">
-              </a>
-                <br>
-                <div class="codebtn">
-                  <a href="https://github.com/camposja/Homes" target="_blank">
-                	   <button type="submit" class="btn btn-large btn-default">
-                       <i class="fa fa-github fa-lg"></i>
-                       Code in Github
-                     </button>
-                  </a>
-                  <a href="https://camposja-tiny-estates.herokuapp.com/" target="_blank">
-                    <button type="submit" class="btn btn-large btn-default">
-                      <i class="fa fa-window-maximize fa-lg"></i>
-                      Project Website
-                    </button>
-                  </a>
-                </div>
-            </div>
-            <div class="item">
-              <a href="https://github.com/camposja" target="_blank">
-				        <img src="assets/img/item-02.png" alt="">
-              </a>
-              <br>
-              <div class="codebtn">
-                <a href="https://github.com/camposja" target="_blank">
-                   <button type="submit" class="btn btn-large btn-default">
-                     <i class="fa fa-github fa-lg"></i>
-                     Code in Github
-                   </button>
-                </a>
-                <a href="https://github.com/camposja" target="_blank">
-                  <button type="submit" class="btn btn-large btn-default">
-                    <i class="fa fa-window-maximize fa-lg"></i>
-                    Project Website
-                  </button>
-                </a>
-              </div>
-				    </div>
-				  </div>
-				</div>
-			</div>
-		</div>
-		<br>
-		<br>
-		<br>
-	</div><!-- /container -->
-</div>
+        <div class="capability-card">
+          <span class="capability-label">Data &amp; Analytics</span>
+          <p>SQL, ETL pipelines, data aggregation and warehousing. Redshift, DynamoDB, RDS. Moving and transforming data reliably at scale.</p>
+        </div>
 
-<section id="contact" name="contact"></section>
-<div id="footerwrap">
-	<div class="container">
-    <div>
-      <h3 align="center">Contact me / GitHub:</h3>
+        <div class="capability-card">
+          <span class="capability-label">AI &amp; Automation</span>
+          <p>Agent-based workflows, LLM integration, operator tooling. Building systems where AI does the work and humans can verify it.</p>
+        </div>
+
+        <div class="capability-card">
+          <span class="capability-label">Testing &amp; Quality</span>
+          <p>RSpec, JUnit, system tests, TDD. Quality as a first-class concern — not something added at the end when there's time.</p>
+        </div>
+
+      </div>
     </div>
-    <ul class="footer">
-      <li class="footy">
-        <a href="https://github.com/camposja" target="_blank">
-        <img src="assets/img/giticon2.png" alt="GitHub"></a>
-      </li>
-      <br>
-      <li class="footy">
-        <a href="https://twitter.com/camposjja" target="_blank">
-        <img src="assets/img/twitter.png" alt="Twitter"></a>
-      </li>
-      <br>
-      <li class="footy">
-        <a href="https://www.linkedin.com/in/jose-a-campos/" target="_blank">
-        <img src="assets/img/linkedin.png" alt="LinkedIN"></a>
-      </li>
-      <li class="footy foottext">
-        <a href="mailto:JJoseCCampos@Gmail.com?subject= Hi - Just found your Portfolio and wanted to reach out&body=Please contact me at your earliest convenience">
-          <img src="assets/img/mail.png" alt="mail">
-          <p> jjoseccampos@ </p>
-        </a>
-      </li>
-    </ul>
-    <!-- TODO: not using phone details now -->
-    <!-- if using phone move email next to phone -->
-    <!-- <ul class="footer"> -->
-      <!-- <li class="footy foottext"> -->
-        <!-- <a href="tel:7XX-5XX-6XXX"> -->
-        <!-- <img src="assets/img/phone3.png" alt="phone"> -->
-        <!-- <p>Phone. </p> -->
-      <!-- </li> -->
-    <!-- </ul> -->
-	</div>
-</div>
-<div id="c">
-	<div class="container">
-		<p>Created by <a href="#">Jose A. Campos -> 2017</a></p>
-	</div>
-</div>
-  <!-- Bootstrap core JavaScript -->
-  <script src="assets/js/bootstrap.js"></script>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-heading">Projects</h2>
+      <div class="project-list">
+
+        <div class="project-card">
+          <div class="project-header">
+            <h3 class="project-title">Crabby's Mission Control</h3>
+            <a href="https://github.com/camposja/crabbys-mission-control" target="_blank" class="project-link">GitHub &rarr;</a>
+          </div>
+          <p class="project-desc">
+            AI operator dashboard for managing OpenClaw 🦞 agents. Rails API + React frontend
+            with Kanban boards, Calendar scheduling, Terminal, and real-time agent coordination
+            via Action Cable.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Rails</span>
+            <span class="tag">React</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Action Cable</span>
+            <span class="tag">AI tooling</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <h3 class="project-title">Empanadas Catalog</h3>
+            <a href="https://github.com/camposja/Empanadas" target="_blank" class="project-link">GitHub &rarr;</a>
+          </div>
+          <p class="project-desc">
+            E-commerce and food catalog platform for a small food business. Product browsing,
+            ordering, and a client management module with SMS promotion capabilities.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Rails 7.1</span>
+            <span class="tag">Ruby 3.2</span>
+            <span class="tag">RSpec</span>
+            <span class="tag">SMS</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <h3 class="project-title">Renewable Energy</h3>
+            <a href="https://github.com/camposja/energy" target="_blank" class="project-link">GitHub &rarr;</a>
+          </div>
+          <p class="project-desc">
+            Rails app surfacing renewable energy commitments across U.S. cities.
+            Final project from The Iron Yard bootcamp.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Ruby on Rails</span>
+            <span class="tag">PostgreSQL</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <h3 class="project-title">Tiny Estates</h3>
+            <a href="https://github.com/camposja/Homes" target="_blank" class="project-link">GitHub &rarr;</a>
+          </div>
+          <p class="project-desc">
+            Zillow-style real estate listing and search application.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Ruby on Rails</span>
+            <span class="tag">PostgreSQL</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <h3 class="project-title">Bidtastic</h3>
+            <a href="https://github.com/camposja/bidtastic-dotrb" target="_blank" class="project-link">GitHub &rarr;</a>
+          </div>
+          <p class="project-desc">
+            Team-built bidding and auction platform, built during an agency-week sprint.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Ruby on Rails</span>
+            <span class="tag">Team project</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- NOTES -->
+  <section id="notes">
+    <div class="container">
+      <h2 class="section-heading">Notes &amp; Writing</h2>
+      <ul class="notes-list">
+        <li>
+          <a href="https://medium.com/@jjoseccampos/ruby-enumerables-the-each-do-the-map-enumerables-48909b4fd9be" target="_blank">
+            Ruby Enumerables: The Each Do &amp; the Map Enumerables
+          </a>
+          <span class="notes-meta">Medium, 2017</span>
+        </li>
+        <li>
+          <a href="https://medium.com/@jjoseccampos/a-weekend-visit-to-my-favorite-food-truck-92c63daa7574" target="_blank">
+            A weekend visit to my favorite food truck: a Rails Chronicle
+          </a>
+          <span class="notes-meta">Medium, 2017</span>
+        </li>
+      </ul>
+      <p class="notes-footer-note">More coming. Currently logging AI/agent experiments.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER / CONTACT -->
+  <footer id="contact">
+    <div class="container">
+      <p class="footer-name">Jose Campos &middot; Tampa, FL</p>
+      <ul class="footer-links">
+        <li><a href="https://www.linkedin.com/in/jose-a-campos/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/camposja" target="_blank">GitHub</a></li>
+        <li><a href="https://twitter.com/camposjja" target="_blank">Twitter</a></li>
+        <li><a href="mailto:JJoseCCampos@Gmail.com">Email</a></li>
+      </ul>
+      <p class="footer-sig">Built by hand. Hosted on GitHub Pages.</p>
+    </div>
+  </footer>
+
   <script>
-  $('.carousel').carousel({
-    interval: 6000
-  })
+    // Mobile nav toggle
+    document.getElementById('navToggle').addEventListener('click', function() {
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+    document.querySelectorAll('.nav-links a').forEach(function(link) {
+      link.addEventListener('click', function() {
+        document.getElementById('navLinks').classList.remove('open');
+      });
+    });
+
+    // Active nav highlight on scroll
+    const sections = document.querySelectorAll('section[id], footer[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    window.addEventListener('scroll', function() {
+      let current = '';
+      sections.forEach(function(section) {
+        if (window.scrollY >= section.offsetTop - 80) {
+          current = section.getAttribute('id');
+        }
+      });
+      navLinks.forEach(function(link) {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + current) {
+          link.classList.add('active');
+        }
+      });
+    });
   </script>
+
 </body>
 </html>
