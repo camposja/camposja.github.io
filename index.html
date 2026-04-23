@@ -67,6 +67,17 @@
           where the goal is something that actually works, not just something that ships.
         </p>
         <p>
+          Right now I'm heads-down on QR Doorbell — think Ring doorbell, but your phone is
+          the hardware instead of a dedicated device. It lives across three repos: a Rails
+          API handling accounts, billing, and push, a native iOS owner app in Swift/SwiftUI
+          (already in TestFlight), and a Go service for the real-time features coming in
+          phase two. Alongside that I run a pair of self-hosted AI agents —
+          <strong>OpenClaw</strong> and <strong>Hermes</strong> — with persistent memory,
+          cron schedules, skills, and messaging integrations. I lean on them daily for
+          architecture reviews, refactoring, release tooling, and background automations.
+          It has genuinely changed how much a solo engineer can ship.
+        </p>
+        <p>
           Eckerd College, Economics. The Iron Yard, Rails. Pickleballer who loves dogs and the environment.
         </p>
       </div>
@@ -130,6 +141,28 @@
 
         <div class="project-card">
           <div class="project-header">
+            <h3 class="project-title">QR Doorbell</h3>
+            <a href="https://www.knoc.app" target="_blank" class="project-link">knoc.app &rarr;</a>
+          </div>
+          <p class="project-desc">
+            A Ring-style doorbell where the owner's phone is the hardware — scan a printed
+            QR, leave a photo/audio/text message, the owner gets a push. Three repos:
+            a Rails API (accounts, billing, QR, push), a native iOS app in Swift/SwiftUI
+            (in TestFlight), and a Go service scaffolded for phase-two real-time features.
+            No public source yet.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Rails API</span>
+            <span class="tag">Swift / SwiftUI</span>
+            <span class="tag">Go</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Stripe</span>
+            <span class="tag">FCM push</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
             <h3 class="project-title">Empanadas Catalog</h3>
             <a href="https://github.com/camposja/Empanadas" target="_blank" class="project-link">GitHub &rarr;</a>
           </div>
@@ -162,29 +195,16 @@
 
         <div class="project-card">
           <div class="project-header">
-            <h3 class="project-title">Tiny Estates</h3>
-            <a href="https://github.com/camposja/Homes" target="_blank" class="project-link">GitHub &rarr;</a>
+            <h3 class="project-title">Code Wars</h3>
+            <a href="https://github.com/camposja/codewars" target="_blank" class="project-link">GitHub &rarr;</a>
           </div>
           <p class="project-desc">
-            Zillow-style real estate listing and search application.
+            Ongoing practice repo — algorithm and problem-solving katas. The boring-but-useful
+            work of staying sharp outside of shipping projects.
           </p>
           <div class="project-tags">
-            <span class="tag">Ruby on Rails</span>
-            <span class="tag">PostgreSQL</span>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-header">
-            <h3 class="project-title">Bidtastic</h3>
-            <a href="https://github.com/camposja/bidtastic-dotrb" target="_blank" class="project-link">GitHub &rarr;</a>
-          </div>
-          <p class="project-desc">
-            Team-built bidding and auction platform, built during an agency-week sprint.
-          </p>
-          <div class="project-tags">
-            <span class="tag">Ruby on Rails</span>
-            <span class="tag">Team project</span>
+            <span class="tag">Ruby</span>
+            <span class="tag">Katas</span>
           </div>
         </div>
 
