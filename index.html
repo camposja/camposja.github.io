@@ -34,17 +34,41 @@
     <div class="container">
       <h1 class="hero-name">Jose A. Campos 🧑🏽‍💻</h1>
       <p class="hero-title">Software Engineer &middot; Data Builder &middot; AI Automation Operator</p>
+
+      <div class="hero-signals">
+        <span class="signal-pill signal-pill--accent">Indie shipper</span>
+        <span class="signal-pill">AI agents</span>
+        <span class="signal-pill">Rails · Swift · Go</span>
+        <span class="signal-pill">Tampa, FL</span>
+      </div>
+
       <p class="hero-bio">
         Rails developer with a background in SQL/ETL, testing, and financial data systems.
         Currently building AI operator workflows and agent-based tooling.
-        Tampa, FL.
       </p>
+
       <div class="hero-links">
         <a href="docs/JoseCampos-RoR-resume.pdf" target="_blank" class="btn btn-primary">Resume &darr;</a>
         <a href="https://www.linkedin.com/in/jose-a-campos/" target="_blank" class="btn btn-secondary">LinkedIn</a>
         <a href="https://github.com/camposja" target="_blank" class="btn btn-secondary">GitHub</a>
         <a href="mailto:JJoseCCampos@Gmail.com" class="btn btn-secondary">Email</a>
       </div>
+
+      <div class="stamp-wrap" aria-hidden="true">
+        <span class="stamp">Made in Tampa &middot; FL</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CURRENTLY -->
+  <section class="currently-section">
+    <div class="container currently">
+      <div class="currently-eyebrow">Currently</div>
+      <p class="currently-text">
+        Heads-down on <strong>QR Doorbell</strong> — three-repo product, iOS app already in TestFlight.
+        Co-driving daily with <strong>OpenClaw</strong> 🦞 and <strong>Hermes</strong>, my two
+        self-hosted AI agents. It has genuinely changed how much a solo engineer can ship.
+      </p>
     </div>
   </section>
 
@@ -75,11 +99,14 @@
           <strong>OpenClaw</strong> and <strong>Hermes</strong> — with persistent memory,
           cron schedules, skills, and messaging integrations. I lean on them daily for
           architecture reviews, refactoring, release tooling, and background automations.
-          It has genuinely changed how much a solo engineer can ship.
         </p>
         <p>
-          Eckerd College, Economics. The Iron Yard, Rails. Pickleballer who loves dogs and the environment.
+          Eckerd College, Economics. The Iron Yard, Rails.
         </p>
+
+        <aside class="marginalia marginalia--side">
+          Pickleballer who loves dogs<br>and the environment.
+        </aside>
       </div>
     </div>
   </section>
@@ -118,9 +145,34 @@
   <section id="projects">
     <div class="container">
       <h2 class="section-heading">Projects</h2>
+
+      <!-- Feature tier -->
       <div class="project-list">
 
-        <div class="project-card">
+        <div class="project-card project-card--feature">
+          <span class="project-eyebrow">Current Work</span>
+          <div class="project-header">
+            <h3 class="project-title">QR Doorbell</h3>
+            <a href="https://www.knoc.app" target="_blank" class="project-link">knoc.app &rarr;</a>
+          </div>
+          <p class="project-desc">
+            A Ring-style doorbell where the owner's phone is the hardware — scan a printed
+            QR, leave a photo/audio/text message, the owner gets a push. Three repos:
+            a Rails API (accounts, billing, QR, push), a native iOS app in Swift/SwiftUI
+            (in TestFlight), and a Go service scaffolded for phase-two real-time features.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Rails API</span>
+            <span class="tag">Swift / SwiftUI</span>
+            <span class="tag">Go</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Stripe</span>
+            <span class="tag">FCM push</span>
+          </div>
+        </div>
+
+        <div class="project-card project-card--feature">
+          <span class="project-eyebrow">AI Operator</span>
           <div class="project-header">
             <h3 class="project-title">Crabby's Mission Control</h3>
             <a href="https://github.com/camposja/crabbys-mission-control" target="_blank" class="project-link">GitHub &rarr;</a>
@@ -139,27 +191,35 @@
           </div>
         </div>
 
-        <div class="project-card">
+        <div class="project-card project-card--feature">
+          <span class="project-eyebrow">Music · Side Project</span>
           <div class="project-header">
-            <h3 class="project-title">QR Doorbell</h3>
-            <a href="https://www.knoc.app" target="_blank" class="project-link">knoc.app &rarr;</a>
+            <h3 class="project-title">Música Ligera 42</h3>
+            <a href="https://github.com/camposja/musica-ligera-42" target="_blank" class="project-link">GitHub &rarr;</a>
           </div>
           <p class="project-desc">
-            A Ring-style doorbell where the owner's phone is the hardware — scan a printed
-            QR, leave a photo/audio/text message, the owner gets a push. Three repos:
-            a Rails API (accounts, billing, QR, push), a native iOS app in Swift/SwiftUI
-            (in TestFlight), and a Go service scaffolded for phase-two real-time features.
-            No public source yet.
+            A music app — Spotify search &amp; playlist import, YouTube playback,
+            owner/user auth with sessions. Next.js 16 App Router + React 19 + Prisma on
+            SQLite, with the previous Postgres build preserved on a frozen branch.
           </p>
           <div class="project-tags">
-            <span class="tag">Rails API</span>
-            <span class="tag">Swift / SwiftUI</span>
-            <span class="tag">Go</span>
-            <span class="tag">PostgreSQL</span>
-            <span class="tag">Stripe</span>
-            <span class="tag">FCM push</span>
+            <span class="tag">Next.js 16</span>
+            <span class="tag">React 19</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">Prisma</span>
+            <span class="tag">SQLite</span>
+            <span class="tag">Tailwind</span>
+            <span class="tag">Spotify API</span>
           </div>
         </div>
+
+      </div>
+
+      <div class="divider-asterisks" aria-hidden="true"></div>
+
+      <!-- Earlier & Ongoing — same card style as the feature tier above -->
+      <div class="projects-secondary-label">Earlier &amp; Ongoing</div>
+      <div class="project-list">
 
         <div class="project-card">
           <div class="project-header">
@@ -232,6 +292,8 @@
         </li>
       </ul>
       <p class="notes-footer-note">More coming. Currently logging AI/agent experiments.</p>
+
+      <div class="divider-asterisks" aria-hidden="true"></div>
     </div>
   </section>
 
